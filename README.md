@@ -88,7 +88,7 @@ It’s **small, fast, practical**, and made specifically for **real developer li
 
 ---
 
-# 🗄️ Database Design (DBMS Assignment Core)
+# 🗄️ Database Design
 
 Even though MongoDB is a NoSQL database, the design follows DBMS principles:  
 **Normalization, Constraints, Indexing, and Relationship Mapping**
