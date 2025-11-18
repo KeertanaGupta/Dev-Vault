@@ -1,0 +1,24 @@
+.button {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  background-image: linear-gradient(90deg, #8a8dff, #5f64f7);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(95, 100, 247, 0.2);
+}
+
+.button:hover {
+  opacity: 0.9;
+  box-shadow: 0 6px 20px rgba(95, 100, 247, 0.3);
+  transform: translateY(-1px);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

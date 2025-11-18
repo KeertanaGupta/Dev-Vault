@@ -1,0 +1,72 @@
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #171719;
+  border-bottom: 1px solid #232326;
+  flex-shrink: 0;
+  z-index: 10; /* Make sure header is above content */
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.logoText {
+  color: #ffffff;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.welcome {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+}
+
+/* This is the new button style */
+.newSnippetButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #5f64f7; /* Purple */
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.newSnippetButton:hover {
+  background-color: #4c51c6;
+}
+
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #232326;
+  color: #a1a1aa;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #3D3D43;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logoutButton:hover {
+  background-color: #3D3D43;
+  color: #ffffff;
+}

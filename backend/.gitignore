@@ -1,0 +1,5 @@
+# This tells Git to ignore these files...
+node_modules
+
+# Environment variables file
+.env

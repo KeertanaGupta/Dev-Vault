@@ -1,0 +1,24 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: 280px 1fr; /* 280px sidebar, 1fr for the rest */
+  flex-grow: 1; /* This makes it fill the remaining height */
+  height: calc(100vh - 60px); /* Full height minus header (which we'll add) */
+}
+
+/* We'll remove this placeholder style later */
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #52525b; /* zinc-600 */
+  border: 1px dashed #232326;
+  margin: 1rem;
+  border-radius: 8px;
+}
